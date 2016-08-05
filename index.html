@@ -11,9 +11,56 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </head>
+  <style>
+    body {
+      background-color: #222831;
+    }
+    .title {
+      font-family: "Avenir Next";
+    }
+    .proj-title {
+      font-family: "Avenir Next";
+      font-size: 30px;
+    }
+    .proj-desc {
+      font-family: "Avenir Next";
+      font-size: 16px;
+    }
+    
+    .title,
+    .proj-desc,
+    .proj-title {
+      color: white;
+    }
+
+    /*.nav-pills {
+      background-color: transparent;
+    }*/
+  </style>
   <body>
     <div class="container">
-      <h1 class="text-center">Tianyu Gu</h1>
+      <h1 class="title text-center">Tianyu Gu</h1>
     </div>
+    <br/>
+    <div class="container">
+      <div class="col-md-2 col-md-offset-5">
+      <ul class="nav nav-pills nav-justified">
+        <li role="presentation" class="active"><a href="/">Home</a></li>
+        <li role="presentation"><a href="#">Resume</a></li>
+      </ul>
+      </div>
+    </div>
+    <br/><br/><br/><br/><br/><br/>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-md-offset-3">
+          <p class="proj-title">proj 1</p>
+        </div>
+        <div class="col-md-5">
+          <p class="proj-desc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
